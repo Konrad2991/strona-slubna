@@ -121,6 +121,7 @@ font-family: 'Muli', sans-serif;
   font-family: 'Muli', sans-serif;
   display: block;
   color: #444349;
+  font-weight: 600;
 }
 
 .item img {
@@ -150,7 +151,6 @@ font-family: 'Muli', sans-serif;
   color: #d2ba87;
   font-family: 'Muli', sans-serif;
   padding: 1rem 1rem;
-  font-size: 1rem;
   font-weight: 900;
   line-height: 1.5rem;
   letter-spacing: .05rem;
@@ -285,3 +285,112 @@ font-family: 'Muli', sans-serif;
   font-size: .7rem;
   font-weight: 700;
 }
+
+/* MEDIA */
+
+/* header */
+
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 0 25% 0 25%;
+    border-radius: 4px;
+  }
+  
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+  .tagline {
+    text-transform: uppercase;
+  }
+}
+
+/* locations */ 
+
+@media (min-width: 768px) {
+  
+  .item {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 2.5rem;
+  }
+
+  .item:after {
+    display: none;
+  }
+  
+  .item p {
+    padding: 0 20% 0 20%;
+  }
+}
+
+/* program */ 
+
+@media (min-width: 768px) {
+  
+  .program {
+    padding-bottom: 2rem;
+  }
+  
+  .times {
+    text-align: center;
+    text-align: justify;
+    margin: 0 36% 0 36%;
+  }
+}
+
+/* Q&A */
+
+@media (min-width: 768px) {
+
+  .qa {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .qa::after {
+    display: none;
+  }
+
+  .qa h3 {
+    text-align: left;
+  }
+
+/* @media (min-width: 768px) {
+  
+  
+  .question {
+    justify-content: center;
+  }
+  
+  .qa {
+    display: inline-block;
+    width: 20vw;
+    vertical-align: top;
+    margin: 3rem;
+    
+  }
+  
+  .qa:after {
+    display: none;
+  }
+  
+  .qa h3 {
+    text-align: left;
+  }
+  
+} */
+
+
