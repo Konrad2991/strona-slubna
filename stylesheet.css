@@ -272,7 +272,16 @@ font-family: 'Muli', sans-serif;
 .footer {
   background-color: #606060;
   color: #fff;
+  display: table;
+  width: 100%;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
   padding: 1rem;
+  font-family: 'Muli', sans-serif;
   font-size: .7rem;
+  font-weight: 700;
 }
