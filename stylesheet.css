@@ -1,0 +1,265 @@
+/* general rules */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+}
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+/* fonts 
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Muli', sans-serif;
+
+*/
+
+/* kolory pomocnicze */
+
+.contact {
+  background-color: yellow;
+}
+
+footer {
+  background-color: darksalmon;
+}
+
+/* header */
+
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-wrapper {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.tagline {
+  font-size: 1.25em;
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: .1rem;
+}
+
+.tagline:after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.headline {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5em;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #d2ba87;
+}
+
+.date {
+  font-size: 1.25em;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.date:before, .date:after {
+  display: inline-block;
+  content:"";
+  background-color: #fff;
+  height: 1px;
+  width: 1.7rem;
+  vertical-align: middle;
+  margin: 0.5rem;
+}
+
+/* locations */ 
+
+.locations {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  width: 100%;
+  text-align: center;
+}
+
+.locations h2 {
+  padding: 1.75rem;
+  font-size: 3rem;
+  font-family: 'Great Vibes', cursive;
+  color: #444349;
+}
+
+.item {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  display: block;
+  color: #444349;
+}
+
+.item img {
+  height: 7.5rem;
+  margin: 2rem;
+}
+
+.item h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.item:after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+/* program */
+
+.program {
+  background-color:  hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+  letter-spacing: .05rem;
+}
+
+.program h2 {
+  font-size: 3rem;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  margin: 1rem auto;
+  font-weight: normal;
+  padding: 1.5rem;
+}
+
+.tagline1 {
+  font-style: italic;
+  letter-spacing: normal;
+  margin: 1rem auto;
+}
+
+.times {
+  margin: 0.5rem auto;
+}
+
+/* gifts */ 
+
+.gifts {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  padding: 1rem;
+}
+
+.gifts h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  margin: 1rem;
+}
+
+.gifts img {
+  height: auto;
+  width: 20%;
+  margin: 0.5rem;
+}
+
+.tagline2 {
+  margin: 1rem;
+}
+
+.gifts p {
+  margin: 1rem;
+}
+
+/* Q&A */ 
+
+.questions {
+  padding: 1rem;
+  color: #d2ba87;
+  background-color:  hsla(100,0%,0%,.6);
+  font-size: 1.25rem;
+}
+
+.questions h2 {
+  font-size: 3rem;
+  font-family: 'Great Vibes', cursive;
+  margin: 2rem;
+  text-align: center;
+}
+
+.qa {
+  font-family: 'Muli', sans-serif;
+  display: block;
+}
+
+.qa:after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+} 
+
+.qa h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem auto;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.qa strong {
+  font-weight: 900;
+}
+
+.qa p {
+  margin: 1rem auto 1.5rem auto;
+}
+
+/* contact */ 
+
