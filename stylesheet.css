@@ -23,8 +23,6 @@ h2 {
   font-size: 3rem;
 }
 
-
-
 a {
   text-decoration: none;
   color: #bd806e;
@@ -42,16 +40,6 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Muli', sans-serif;
 
 */
-
-/* kolory pomocnicze */
-
-.contact {
-  background-color: yellow;
-}
-
-footer {
-  background-color: darksalmon;
-}
 
 /* header */
 
@@ -222,7 +210,6 @@ footer {
   padding: 1rem;
   color: #d2ba87;
   background-color:  hsla(100,0%,0%,.6);
-  font-size: 1.25rem;
 }
 
 .questions h2 {
@@ -263,3 +250,29 @@ footer {
 
 /* contact */ 
 
+.contact {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.contact h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact p {
+  margin: 1rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: #606060;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: .7rem;
+}
